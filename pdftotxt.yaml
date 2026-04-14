@@ -11,9 +11,7 @@ Resources:
       Description: ''
       MemorySize: 512
       Timeout: 900
-      Role: 'arn:aws:iam::844028273225:role/lambda_s3'
+      Role: 'arn:aws:iam::845893757045:role/lambda-opensearch-role'
       Environment:
         Variables:
-          TARGET_BUCKET: gl-inter-store
-      Layers:
-        - 'arn:aws:lambda:ap-northeast-1:844028273225:layer:tika:1'
+          TARGET_BUCKET: mama-oss3bucket
